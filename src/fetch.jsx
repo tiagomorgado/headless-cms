@@ -33,5 +33,4 @@ export const useFetchProjects = () => {
     }, [])
 
     return {isLoading, projects }
-
 }

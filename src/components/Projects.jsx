@@ -4,11 +4,11 @@ const Projects = () => {
    const {isLoading, projects} = useFetchProjects()
 
    if(isLoading) {
-    return (
-        <section className='projects'>
-            <h2>Loading...</h2>
-        </section>
-    )
+        return (
+            <section className='projects'>
+                <h2>Loading...</h2>
+            </section>
+        )
    }
 
   return (
